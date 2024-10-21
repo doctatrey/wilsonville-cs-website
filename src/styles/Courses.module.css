@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.coursesContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    overflow-y: auto;
+    height: calc(100vh - 10rem);
+  }
+  
+  .course {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+  }
+  
+  .courseImage img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .courseText {
+    max-width: 600px;
+    padding: 0 20px;
+  }
+  
+  .reverseCourse {
+    flex-direction: row-reverse;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .course {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .reverseCourse {
+      flex-direction: column;
+    }
+  
+    .courseText {
+      padding: 20px 0;
+    }
+  }
+  

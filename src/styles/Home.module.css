@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body, #root, #__next {
+    height: 100%;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.homeContainer {
+    height: 88.5%; 
+    background-color: #f0f8ff;
+    display: flex;        
+    justify-content: center;  
+    align-items: center;
+    text-align: center;
+    flex-direction: center;
+    gap: 9rem;
+}
+
+h1 {
+    font-family: Impact, fantasy;
+    color: black;
+    text-align: center;
+    font-size: 6rem;
+    margin-bottom: 9rem;
+}
+
+.courseBtn {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 450;
+    height: auto;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    background-color: #3d8bd9;
+    color: white;
+    border-radius: 5rem;
+    border: 2px solid #3d8bd9;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    
+}
+
+.courseBtn:hover {
+    transform: scale(1.05); 
+    background-color: #1d6fba;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
