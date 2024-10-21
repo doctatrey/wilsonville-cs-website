@@ -38,6 +38,18 @@ const Courses = () => {
         </div>
       </div>
 
+        {/*Course 4: Robotics*/}
+        <div className={`${styles.course} ${styles.reverseCourse}`}>
+          <div className={styles.courseimage}>
+            <img src="/robotics-image.jpg" alt="Robotics" />
+          </div>
+          <div className={styles.courseText}>
+            <h2>Robotics</h2>
+            <p>Robotics is a field that combines engineering and software, focusing on designing and programming robots that can interact with their environment.</p>
+          </div>
+        </div>
+
+        
     </div>
   );
 };
